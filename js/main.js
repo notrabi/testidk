@@ -1,7 +1,7 @@
 // Abbriviate this mess (1.0000000000013 Points and 1113110) 
 function abbrNum(value) {
     let newValue = value;
-    const suffixes = ["", "K", "M", "B","T","Qa","Qi","Sx","Sp","Oc","No","Dc","Ud","Dd","Td","Qad","Qid","Sxd","Spd","Ocd","Nod","Vg","Uvg"];
+    const suffixes = ['', 'K', 'M', 'B', 'T', 'Qa', 'Qi', 'Sx', 'Sp', 'Oc', 'No', 'Dc', 'Ud', 'Dd', 'Td', 'Qad', 'Qid', 'Sxd', 'Spd', 'Ocd', 'Nod', 'V', 'Uv', 'Dv', 'Tv', 'Qav', 'Qiv', 'Sxv', 'Spv', 'Ocv', 'Nov', 'Tg', 'Utg', 'Dtg', 'Ttg', 'Qatg', 'Qitg', 'Sxtg', 'Sptg', 'Octg', 'Notg', 'Qaa', 'Uqa', 'Dqa', 'Tqa', 'Qaqa', 'Qiqa', 'Sxqa', 'Spqa', 'Ocqa', 'Noqa', 'Qia', 'Uqi', 'Dqi', 'Tqi', 'Qaqi', 'Qiqi', 'Sxqi', 'Spqi', 'Ocqi', 'Noqi', 'Sxa', 'Usx', 'Dsx', 'Tsx', 'Qasx', 'Qisx', 'Sxsx', 'Spsx', 'Ocsx', 'Nosx', 'Spa', 'Usp', 'Dsp', 'Tsp', 'Qasp', 'Qisp', 'Sxsp', 'Spsp', 'Ocsp', 'Nosp', 'Oca', 'Uoc', 'Doc', 'Toc', 'Qaoc', 'Qioc', 'Sxoc', 'Spoc', 'Ococ', 'Nooc', 'Na', 'Una', 'Dna', 'Tna', 'Qana', 'Qina', 'Sxna', 'Spna', 'Ocna', 'Nona', 'De', 'Ude', 'Dde', 'Tde', 'Qade', 'Qide', 'Sxde', 'Spde', 'Ocde', 'Node', 'Ue', 'Uue', 'Due', 'Tue', 'Quue', 'Quiue', 'Sxue', 'Spue', 'Ocue', 'Noue', 'Duotrigintillion', 'Uduotrigintillion', 'Dduotrigintillion', 'Tduotrigintillion', 'Qaduotrigintillion', 'Qiduotrigintillion', 'Sxduotrigintillion', 'Spduotrigintillion', 'Ocduotrigintillion', 'Noduotrigintillion', 'Tritrigintillion', 'Utritrigintillion', 'Dtritrigintillion', 'Ttritrigintillion', 'Qatritrigintillion', 'Qitritrigintillion', 'Sxtritrigintillion', 'Sptritrigintillion', 'Octritrigintillion', 'Notritrigintillion', 'Quattuortrigintillion', 'Uquattuortrigintillion', 'Dquattuortrigintillion', 'Tquattuortrigintillion', 'Qaquattuortrigintillion', 'Qiquattuortrigintillion', 'Sxquattuortrigintillion', 'Spquattuortrigintillion']
     let suffixNum = 0;
     while (newValue >= 1000) {
       newValue /= 1000;
@@ -51,6 +51,18 @@ var shopItems = {
     qcGive: 4,
     qcLevel: 0,
     qcXCost: 1.325,
+
+    // Hammer
+    haCost: 175,
+    haGive: 12,
+    haLevel: 0,
+    haXCost: 1.5,
+
+    // Inspect Element
+    ieCost: 325,
+    ieGive: 28,
+    ieLevel: 0,
+    ieXCost: 1.9,
 
     // ---Clicks Per Second---
 
