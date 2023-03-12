@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/default.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TACG</title>
+    </head>
+    <script src="js/main.js"></script>
+    <body>
+        <p id="Version" onclick="getVersion()">[VERSION]</p>
+        <h2>The Auto Clicker Game</h2>
+        <h3>The Point Button</h3>
+        <p id="pDisplay">0.00 Points</p>
+        <p id="cpsDisplay">0.00 Clicks/s</p>
+        <button id="ppcDisplay" onclick="getPoints()">1 Point/c</button>
+        <hr/>
+        <h3>Shop</h3>
+        <div>
+            <h4>Better Mouse</h4>
+            <p>Comes with a double click button! +1 Point/c</p>
+            <button id="bmButton" onclick="itemBought('bm')">Level 0.00 | Cost: 10.0 Points</button>
+            <div3></div3>
+            <h4>Mouse Application by [REDACTED]</h4>
+            <p>Adds another double click to your double click. +2 Point/c</p>
+            <button id="maButton" onclick="itemBought('ma')">Level 0.00 | Cost: 25.0 Points</button>
+            <div3></div3>
+            <h4>Quadruple Click Mod</h4>
+            <p>You learned how to mod your mouse. <i>Excellent!</i> +4 Point/c</p>
+            <button id="qcButton" onclick="itemBought('qc')">Level 0.00 | Cost: 50.0 Points</button>
+            <p></p>
+        </div>
+        <div2>
+            <h4>Auto Clicker</h4>
+            <p>Clicks for you. +1 Clicks/s</p>
+            <button id="acButton" onclick="itemBought('ac')">Level 0.00 | Cost: 50.0 Points</button>
+            <div3></div3>
+            <h4>Good Auto Clicker</h4>
+            <p>You could <i>still</i> spam in MC Bedwars faster than this. <i>Still</i>. +5 Clicks/s</p>
+            <button id="gaButton" onclick="itemBought('ga')">Level 0.00 | Cost: 165.0 Points</button>
+            <div3></div3>
+            <h4>OP Auto Clicker</h4>
+            <p>Welcome <b>professional</b>. This will now spam faster in MC Bedwars. +10 Clicks/s</p>
+            <button id="oaButton" onclick="itemBought('oa')">Level 0.00 | Cost: 374.9 Points</button>
+            <p></p>
+        </div2>
+    </body>
+    <footer>
+        <hr/>
+        <a href="info.html">Info</a>
+        <button style="background-color: rgb(255,0,0); border-color: rgb(255,0,0); border-radius: 8px;" onclick="resetData()">Reset Data</rbutton>
+    </footer>
+</html>
