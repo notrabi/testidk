@@ -99,7 +99,7 @@ function itemBought(item) {
             shopItems[item+'Level'] += 1
             document.getElementById(item+'Button').innerHTML = "Level: " + abbrNum(shopItems[item+'Level']) + " | Cost: " + abbrNum(shopItems[item+'Cost']) + " Points"
             if (shopItems.maxLevel == shopItems[item+'Level']) {
-                document.getElementById(item+'Button').innerHTML = "Level: MAX (100)"
+                document.getElementById(item+'Button').innerHTML = "Level: MAX (" + shopItems.maxLevel +")"
             }
             document.getElementById("pDisplay").innerHTML = abbrNum(gameData.Points) + " Points"
             if (shopItems[item+'Second']) {
