@@ -1,4 +1,3 @@
 # testidk
 
-a test.
-yes
+Nothing to say.
