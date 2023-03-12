@@ -31,7 +31,7 @@ function getVersion() {
 // Items For Sale
 var shopItems = {
     // Max Level. cmon its not that hard to read.
-    maxLevel: 100,
+    maxLevel: 1000,
     // ---Points Per Click---
 
     // Better Mouse
